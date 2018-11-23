@@ -19,6 +19,7 @@ spring:
     port: 5672
     username: czs
     password: 1234
+    virtual-host: /czs
   http:
     multipart:
       max-file-size: 1000MB
